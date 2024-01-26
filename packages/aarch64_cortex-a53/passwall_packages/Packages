@@ -1,0 +1,209 @@
+Package: hysteria
+Version: 2.2.3-1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 5303190
+Filename: hysteria_2.2.3-1_aarch64_cortex-a53.ipk
+Size: 5288178
+SHA256sum: 9fa81b18b9ef04d58d8ec12ac382bb8dd1df35452c16979d98408df36c7eb19b
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
+
+Package: naiveproxy
+Version: 113.0.5672.62-1-1
+Depends: libc, libatomic1
+License: BSD 3-Clause
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 2876379
+Filename: naiveproxy_113.0.5672.62-1-1_aarch64_cortex-a53.ipk
+Size: 2873761
+SHA256sum: 5398f04e5a05707321be651a82a4aad3c5d04c15c67549a0fc7e3dee410ea952
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: shadowsocks-rust-sslocal
+Version: 1.17.1-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 2709972
+Filename: shadowsocks-rust-sslocal_1.17.1-1_aarch64_cortex-a53.ipk
+Size: 2698412
+SHA256sum: 1f87c30c408c08c6e55c9c2a5a82343e5ee229aab179d1828dba34ce7c3e9431
+Description:  shadowsocks-rust sslocal
+
+Package: shadowsocks-rust-ssmanager
+Version: 1.17.1-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 2178642
+Filename: shadowsocks-rust-ssmanager_1.17.1-1_aarch64_cortex-a53.ipk
+Size: 2169542
+SHA256sum: aef8f22a710902ed4d559eaf906acfd823be01f35b871a4d2ed04fe109bd6323
+Description:  shadowsocks-rust ssmanager
+
+Package: shadowsocks-rust-ssserver
+Version: 1.17.1-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 2114747
+Filename: shadowsocks-rust-ssserver_1.17.1-1_aarch64_cortex-a53.ipk
+Size: 2104646
+SHA256sum: 549c68f70d19df60a6746f1426e0db45d9647b00ac9674fa41224c1358591943
+Description:  shadowsocks-rust ssserver
+
+Package: shadowsocks-rust-ssservice
+Version: 1.17.1-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 2986009
+Filename: shadowsocks-rust-ssservice_1.17.1-1_aarch64_cortex-a53.ipk
+Size: 2974459
+SHA256sum: f632edf583ceb6040042f0161e4af0d48499c16c2a070f44912f97f24fd93e37
+Description:  shadowsocks-rust ssservice
+
+Package: shadowsocks-rust-ssurl
+Version: 1.17.1-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 1142539
+Filename: shadowsocks-rust-ssurl_1.17.1-1_aarch64_cortex-a53.ipk
+Size: 1134158
+SHA256sum: f44239f0211d026c8fb2f8267a94f384e62320b486eb19956b53ade7050cce72
+Description:  shadowsocks-rust ssurl
+
+Package: sing-box
+Version: 1.8.4-1
+Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
+License: GPL-3.0-or-later
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 8194988
+Filename: sing-box_1.8.4-1_aarch64_cortex-a53.ipk
+Size: 8170528
+SHA256sum: f883979ef558c2e7065e959d067cf18b4cb2437891df0d120e98c57a7a7d60c0
+Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS,
+ Shadowsocks, ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+License: GPL-2.0-only
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 3530
+Filename: tcping_0.3-1_aarch64_cortex-a53.ipk
+Size: 4235
+SHA256sum: 722ccac1849ca13c1ecc8fb9aebbf8e7163ec8f71a2ba80e53f699769a6c1311
+Description:  tcping measures the latency of a tcp-connection
+
+Package: v2ray-core
+Version: 5.13.0-1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 10630503
+Filename: v2ray-core_5.13.0-1_aarch64_cortex-a53.ipk
+Size: 10590807
+SHA256sum: 141d49fda5088b95e5b41ff2a881b7c9486f0229f194bed8286466a9c6b0220e
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: v2ray-example
+Version: 5.13.0-1
+Depends: libc, v2ray-core
+License: MIT
+Section: net
+Architecture: all
+Installed-Size: 567
+Filename: v2ray-example_5.13.0-1_all.ipk
+Size: 1424
+SHA256sum: 6d10b533d4529b89fc7080c3fe3f24cb9389462ab69bca433f7f628fa401e718
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes example configuration files for v2ray-core.
+
+Package: v2ray-extra
+Version: 5.13.0-1
+Depends: libc, v2ray-core
+License: MIT
+Section: net
+Architecture: all
+Installed-Size: 298635
+Filename: v2ray-extra_5.13.0-1_all.ipk
+Size: 299361
+SHA256sum: 74bc3533d9807d5b1f91dd53a876d64d8c05b5201fe72e569d10e6ef81f5ecc3
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes extra resources for v2ray-core.
+
+Package: v2ray-geoip
+Version: 202311230040-1
+Depends: libc
+License: CC-BY-SA-4.0
+Section: net
+Architecture: all
+Installed-Size: 2544971
+Filename: v2ray-geoip_202311230040-1_all.ipk
+Size: 2298271
+SHA256sum: 1b522f877641f14fa0598fb1fee9717e2d45e7c5dd13b27fcbd30af095005c1e
+Description:  GeoIP List for V2Ray
+
+Package: v2ray-geosite
+Version: 20231122065640-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: all
+Installed-Size: 470523
+Filename: v2ray-geosite_20231122065640-1_all.ipk
+Size: 469993
+SHA256sum: 933ae317c26809dbe3031303f85c20a82f2085aa1ec4f5abd17ac387587df69b
+Description:  Geosite List for V2Ray
+
+Package: xray-core
+Version: 1.8.7-1
+Depends: libc, ca-bundle
+License: MPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 9388505
+Filename: xray-core_1.8.7-1_aarch64_cortex-a53.ipk
+Size: 9357449
+SHA256sum: dc8df9bbd62795c77171c6c9ea91564462b4555125987c0492175cc85c2e66bd
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: xray-example
+Version: 1.8.7-1
+Depends: libc, xray-core
+License: MPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 552
+Filename: xray-example_1.8.7-1_all.ipk
+Size: 1409
+SHA256sum: a4f03a2ee989bfdc46df9181ddd36df52668836265ccf74f887307bdce91e227
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes example configuration files for xray-core.
+
